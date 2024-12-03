@@ -2,8 +2,8 @@ import os
 import zipfile
 
 # Define the source directory and destination directory
-source_dir = r"C:\Users\gengj\Desktop\lol-skins-main\skins"
-destination_dir = r"D:\cslol-manager\installed"
+source_dir = r"path to skins"
+destination_dir = r"path to installed folder in cslol"
 
 # Create the destination directory if it doesn't exist
 os.makedirs(destination_dir, exist_ok=True)
